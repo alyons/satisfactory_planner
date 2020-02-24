@@ -1,0 +1,9 @@
+[
+    {
+        "id": "ironIngot0",
+        "name": "Iron Ingot",
+        "inputs": ["1 Iron Ore"],
+        "output": 1,
+        "itemsPerMinute": 120
+    }
+]

@@ -1,0 +1,121 @@
+[
+    {
+        "id": "ironIngot0",
+        "name": "Iron Ingot",
+        "inputs": ["1 Iron Ore"],
+        "output": 1,
+        "itemsPerMinute": 30
+    },
+    {
+        "id": "ironPlate0",
+        "name": "Iron Plate",
+        "inputs": ["3 Iron Ingot"],
+        "output": 2,
+        "itemsPerMinute": 20
+    },
+    {
+        "id": "ironRod0",
+        "name": "Iron Rod",
+        "inputs": ["1 Iron Ingot"],
+        "output": 1,
+        "itemsPerMinute": 15
+    },
+    {
+        "id": "copperIngot0",
+        "name": "Copper Ingot",
+        "inputs": ["1 Copper Ore"],
+        "output": 1,
+        "itemsPerMinute": 30
+    },
+    {
+        "id": "wire0",
+        "name": "Wire",
+        "inputs": ["1 Copper Ingot"],
+        "output": 2,
+        "itemsPerMinute": 20
+    },
+    {
+        "id": "cable0",
+        "name": "Cable",
+        "inputs": ["2 Wire"],
+        "output": 1,
+        "itemsPerMinute": 30
+    },
+    {
+        "id": "screw0",
+        "name": "Screw",
+        "inputs": ["1 Iron Rod"],
+        "output": 4,
+        "itemsPerMinute": 40
+    },
+    {
+        "id": "reinforcedIronPlate0",
+        "name": "Reinforced Iron Plate",
+        "inputs": ["6 Iron Plate", "12 Screw"],
+        "output": 1,
+        "itemsPerMinute": 5
+    },
+    {
+        "id": "smartPlating0",
+        "name": "Smart Plating",
+        "inputs": ["1 Reinforced Iron Plate", "1 Rotor"],
+        "output": 1,
+        "itemsPerMinute": 2
+    },
+    {
+        "id": "rotor0",
+        "name": "Rotor",
+        "inputs": ["5 Iron Rod", "25 Screw"],
+        "output": 1,
+        "itemsPerMinute": 4
+    },
+    {
+        "id": "modularFrame0",
+        "name": "Modular Frame",
+        "inputs": ["3 Reinforced Iron Plate", "12 Iron Rod"],
+        "output": 2,
+        "itemsPerMinute": 2
+    },
+    {
+        "id": "versatileFramework0",
+        "name": "Versatile Framework",
+        "inputs": ["1 Modular Frame", "12 Steel Beam"],
+        "output": 2,
+        "itemsPerMinute": 2.5
+    },
+    {
+        "id": "steelIngot0",
+        "name": "Steel Ingot",
+        "inputs": ["3 Iron Ore", "3 Coal"],
+        "output": 3,
+        "itemsPerMinute": 45
+    },
+    {
+        "id": "steelBeam0",
+        "name": "Steel Beam",
+        "inputs": ["4 Steel Ingot"],
+        "output": 1,
+        "itemsPerMinute": 15
+    },
+    {
+        "id": "steelPipe0",
+        "name": "Steel Pipe",
+        "inputs": ["3 Steel Ingot"],
+        "output": 2,
+        "itemsPerMinute": 20
+    },
+    {
+        "id": "stator0",
+        "name": "Stator",
+        "inputs": ["3 Steel Pipe", "8 Wire"],
+        "output": 1,
+        "itemsPerMinute": 5
+    },
+    {
+        "id": "automatedWiring0",
+        "name": "Automated Wiring",
+        "inputs": ["1 Stator", "20 Wire"],
+        "output": 1,
+        "itemsPerMinute": 2.5
+    }
+]
