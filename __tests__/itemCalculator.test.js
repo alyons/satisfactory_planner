@@ -1,7 +1,7 @@
-const { calculateItemThroughput } = require('../itemCalculator');
+const { calculateItemThroughput } = require('../src/itemCalculator');
 
 const recipes0 = require('./recipes0.json');
-const fullRecipes = require('../../data/recipes.json');
+const fullRecipes = require('../src/data/recipes.json');
 
 describe('Calculate Throughput', () => {
     let store;

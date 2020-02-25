@@ -1,4 +1,4 @@
-const { calculateGoals, calculateMachines } = require('./src/itemCalculator');
+const { calculateGoals, calculateMachines } = require('./itemCalculator');
 const recipes = require('./data/recipes.json');
 
 let goals = [
