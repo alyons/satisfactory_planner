@@ -1,16 +1,8 @@
-const { calculateGoals, calculateMachines } = require('./itemCalculator');
-const recipes = require('./data/recipes.json');
+import React, { compose } from 'react';
+import { render } from 'react-dom';
 
-let goals = [
-    { item: "Smart Plating", ipm: 2 },
-    { item: "Versatile Framework", ipm: 5 },
-    { item: "Automated Wiring", ipm: 2.5 }
-];
+import App from './components/app';
 
-let goalMap = calculateGoals(goals, recipes);
-
-console.log(goalMap);
-
-let machines = calculateMachines(goalMap, recipes);
-
-console.log(machines);
+render(
+    <App />
+);

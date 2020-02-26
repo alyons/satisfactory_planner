@@ -1,45 +1,45 @@
 {
   "name": "satisfactory_planner",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Quick Calculator for Satisfactory",
+  "author": "",
+  "license": "ISC",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server --hot --open --mode development",
-    "test": "jest",
-    "test-watch": "jest --watch"
+      "build": "webpack",
+      "start": "webpack-dev-server --hot --open --mode development",
+      "test": "jest",
+      "test-watch": "jest --watch"
   },
   "eslintConfig": {
-    "extends": "react-app"
+      "extends": "react-app"
   },
   "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
   ],
   "jest": {
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}",
-      "!**/index.js",
-      "!**/LogIn.js"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 70,
-        "functions": 80,
-        "lines": 80,
-        "statements": 80
+      "collectCoverage": true,
+      "collectCoverageFrom": [
+          "src/**/*.{js,jsx}",
+          "!**/index.js",
+          "!**/LogIn.js"
+      ],
+      "coverageThreshold": {
+          "global": {
+              "branches": 70,
+              "functions": 80,
+              "lines": 80,
+              "statements": 80
+          }
+      },
+      "moduleNameMapper": {
+          "\\.(ico|svg)$": "<rootDir>/__mocks__/fileMock.js",
+          "\\.(css)$": "<rootDir>/__mocks__/styleMock.js"
       }
-    },
-    "moduleNameMapper": {
-      "\\.(ico|svg)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css)$": "<rootDir>/__mocks__/styleMock.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
+  },
+  "devDependencies": {
       "@babel/core": "^7.6.2",
       "@babel/preset-env": "^7.6.2",
       "@babel/preset-react": "^7.0.0",
@@ -60,8 +60,8 @@
       "webpack": "^4.41.0",
       "webpack-cli": "^3.3.9",
       "webpack-dev-server": "^3.8.1"
-    },
-    "dependencies": {
+  },
+  "dependencies": {
       "bootstrap": "^4.3.1",
       "react": "^16.9.0",
       "react-bootstrap": "^1.0.0-beta.12",
@@ -73,5 +73,5 @@
       "react-transition-group": "^4.3.0",
       "redux": "^4.0.4",
       "redux-thunk": "^2.3.0"
-    }
   }
+}
