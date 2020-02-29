@@ -114,7 +114,7 @@
     {
         "id": "automatedWiring0",
         "name": "Automated Wiring",
-        "inputs": ["1 Stator", "20 Wire"],
+        "inputs": ["1 Stator", "20 Cable"],
         "output": 1,
         "itemsPerMinute": 2.5
     }
