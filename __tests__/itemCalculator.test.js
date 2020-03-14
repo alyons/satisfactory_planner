@@ -1,7 +1,7 @@
 const { calculateItemThroughput } = require('../src/itemCalculator');
 
 const recipes0 = require('./recipes0.json');
-const fullRecipes = require('../data/recipes.json');
+const fullRecipes = require('../src/data/recipes.json');
 
 describe('Calculate Throughput', () => {
     let store;
@@ -16,13 +16,11 @@ describe('Calculate Throughput', () => {
         });
     });
 
-    describe('Iron Plate', () => {
+    describe('Full Recipe Suite', () => {
         test('Create 20 Iron Plate per Minute', () => {
             calculateItemThroughput('Iron Plate', 20, fullRecipes, store);
-            console.log(store);
             expect(store.get('Iron Ingot')).toEqual(30);
             expect(store.get('Iron Ore')).toEqual(30);
         });
     });
-
 });
